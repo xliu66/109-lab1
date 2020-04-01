@@ -1,0 +1,36 @@
+
+
+ion-toolbar {
+  --background: translucent;
+}
+ion-content {
+  --background: url('src/assets/bg_tab2.jpg') no-repeat center/cover fixed;
+}
+
+ion-card-title{
+  font-size:14px;
+  color:#688dcc;
+
+}
+
+ion-card-subtitle{
+  font-size: 16px;
+  color:rgb(39, 31, 31);
+  margin-top:10px;
+  text-transform: capitalize;
+}
+
+// ion-card-header{
+//   background-color: #cee7ac;
+// }
+
+ion-card-content{
+  border-bottom: 1px solid #688dcc;
+}
+
+.my-message{
+  background-color:rgb(123, 235, 18);
+  ion-card-title{
+    text-align: right;
+  }
+}
